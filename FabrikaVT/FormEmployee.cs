@@ -99,5 +99,10 @@ namespace FabrikaVT
                 form1.ShowDialog();
             
         }
+
+        private void buttonOrder_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

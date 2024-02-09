@@ -86,6 +86,24 @@ namespace FabrikaVT
                     // Okuma işlemini kapat
                     reader.Close();
                 }
+                using (SqlConnection connection1 = baglantiObj.CreateConnection())
+                {
+                    baglantiObj.OpenConnection(connection1);
+
+                    // SQL sorgusuyla veritabanından p_title değerlerini al
+                    string query1 = "SELECT product_id FROM Product";
+                    SqlCommand command = new SqlCommand(query1, connection1);
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    // Okunan değerleri ComboBox'a ekle
+                    while (reader.Read())
+                    {
+                        comboBoxGizliHolder.Items.Add(reader["product_id"].ToString());
+                    }
+
+                    // Okuma işlemini kapat
+                    reader.Close();
+                }
             }
             catch (Exception ex)
             {
@@ -425,7 +443,7 @@ namespace FabrikaVT
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            comboBoxGizliHolder.SelectedIndex = comboBox1.SelectedIndex;
         }
 
         private void buttonEkle_Click(object sender, EventArgs e)
@@ -485,7 +503,7 @@ namespace FabrikaVT
                     using (SqlCommand command = new SqlCommand("INSERT INTO OrderLine(Order_id,product_id,orderQuantity) VALUES (@Param476,@Param2,@Param3)", connection))
                     {
                         command.Parameters.AddWithValue("@Param476",eklerkenorderid);
-                        command.Parameters.AddWithValue("@Param2", (comboBox1.SelectedIndex+200).ToString());
+                        command.Parameters.AddWithValue("@Param2", comboBoxGizliHolder.Text);
                         command.Parameters.AddWithValue("@Param3", textBoxQuantity.Text);
 
                         

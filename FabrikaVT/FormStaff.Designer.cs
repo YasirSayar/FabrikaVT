@@ -87,9 +87,9 @@
             this.panelSlide.Controls.Add(this.panelLogo);
             this.panelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSlide.Location = new System.Drawing.Point(0, 0);
-            this.panelSlide.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelSlide.Margin = new System.Windows.Forms.Padding(2);
             this.panelSlide.Name = "panelSlide";
-            this.panelSlide.Size = new System.Drawing.Size(165, 1061);
+            this.panelSlide.Size = new System.Drawing.Size(165, 547);
             this.panelSlide.TabIndex = 0;
             this.panelSlide.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSlide_Paint);
             // 
@@ -100,7 +100,7 @@
             this.button4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.ForeColor = System.Drawing.Color.Yellow;
             this.button4.Location = new System.Drawing.Point(0, 1041);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(165, 41);
             this.button4.TabIndex = 16;
@@ -116,7 +116,7 @@
             this.panelEmployee.Controls.Add(this.button8);
             this.panelEmployee.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelEmployee.Location = new System.Drawing.Point(0, 917);
-            this.panelEmployee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelEmployee.Margin = new System.Windows.Forms.Padding(2);
             this.panelEmployee.Name = "panelEmployee";
             this.panelEmployee.Size = new System.Drawing.Size(165, 124);
             this.panelEmployee.TabIndex = 15;
@@ -129,7 +129,7 @@
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button9.ForeColor = System.Drawing.Color.Yellow;
             this.button9.Location = new System.Drawing.Point(0, 123);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(165, 41);
             this.button9.TabIndex = 13;
@@ -144,7 +144,7 @@
             this.button6.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button6.ForeColor = System.Drawing.Color.Yellow;
             this.button6.Location = new System.Drawing.Point(0, 82);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button6.Size = new System.Drawing.Size(165, 41);
@@ -161,7 +161,7 @@
             this.button7.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button7.ForeColor = System.Drawing.Color.Yellow;
             this.button7.Location = new System.Drawing.Point(0, 41);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button7.Size = new System.Drawing.Size(165, 41);
@@ -179,7 +179,7 @@
             this.button8.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button8.ForeColor = System.Drawing.Color.Yellow;
             this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button8.Size = new System.Drawing.Size(165, 41);
@@ -196,7 +196,7 @@
             this.button5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button5.ForeColor = System.Drawing.Color.Yellow;
             this.button5.Location = new System.Drawing.Point(0, 876);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(165, 41);
             this.button5.TabIndex = 14;
@@ -212,7 +212,7 @@
             this.panelParça.Controls.Add(this.buttonPartAdd);
             this.panelParça.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelParça.Location = new System.Drawing.Point(0, 752);
-            this.panelParça.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelParça.Margin = new System.Windows.Forms.Padding(2);
             this.panelParça.Name = "panelParça";
             this.panelParça.Size = new System.Drawing.Size(165, 124);
             this.panelParça.TabIndex = 13;
@@ -226,7 +226,7 @@
             this.buttonPartDelete.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonPartDelete.ForeColor = System.Drawing.Color.Yellow;
             this.buttonPartDelete.Location = new System.Drawing.Point(0, 82);
-            this.buttonPartDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPartDelete.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPartDelete.Name = "buttonPartDelete";
             this.buttonPartDelete.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.buttonPartDelete.Size = new System.Drawing.Size(165, 41);
@@ -244,7 +244,7 @@
             this.buttonPartUpdate.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonPartUpdate.ForeColor = System.Drawing.Color.Yellow;
             this.buttonPartUpdate.Location = new System.Drawing.Point(0, 41);
-            this.buttonPartUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPartUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPartUpdate.Name = "buttonPartUpdate";
             this.buttonPartUpdate.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.buttonPartUpdate.Size = new System.Drawing.Size(165, 41);
@@ -262,7 +262,7 @@
             this.buttonPartAdd.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonPartAdd.ForeColor = System.Drawing.Color.Yellow;
             this.buttonPartAdd.Location = new System.Drawing.Point(0, 0);
-            this.buttonPartAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonPartAdd.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPartAdd.Name = "buttonPartAdd";
             this.buttonPartAdd.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.buttonPartAdd.Size = new System.Drawing.Size(165, 41);
@@ -279,7 +279,7 @@
             this.buttonParçalar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonParçalar.ForeColor = System.Drawing.Color.Yellow;
             this.buttonParçalar.Location = new System.Drawing.Point(0, 711);
-            this.buttonParçalar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonParçalar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonParçalar.Name = "buttonParçalar";
             this.buttonParçalar.Size = new System.Drawing.Size(165, 41);
             this.buttonParçalar.TabIndex = 12;
@@ -295,7 +295,7 @@
             this.panelProduct.Controls.Add(this.buttonProdEkle);
             this.panelProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelProduct.Location = new System.Drawing.Point(0, 587);
-            this.panelProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelProduct.Margin = new System.Windows.Forms.Padding(2);
             this.panelProduct.Name = "panelProduct";
             this.panelProduct.Size = new System.Drawing.Size(165, 124);
             this.panelProduct.TabIndex = 11;
@@ -309,7 +309,7 @@
             this.buttonProdSil.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonProdSil.ForeColor = System.Drawing.Color.Yellow;
             this.buttonProdSil.Location = new System.Drawing.Point(0, 82);
-            this.buttonProdSil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonProdSil.Margin = new System.Windows.Forms.Padding(2);
             this.buttonProdSil.Name = "buttonProdSil";
             this.buttonProdSil.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.buttonProdSil.Size = new System.Drawing.Size(165, 41);
@@ -327,7 +327,7 @@
             this.buttonProdGüncelle.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonProdGüncelle.ForeColor = System.Drawing.Color.Yellow;
             this.buttonProdGüncelle.Location = new System.Drawing.Point(0, 41);
-            this.buttonProdGüncelle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonProdGüncelle.Margin = new System.Windows.Forms.Padding(2);
             this.buttonProdGüncelle.Name = "buttonProdGüncelle";
             this.buttonProdGüncelle.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.buttonProdGüncelle.Size = new System.Drawing.Size(165, 41);
@@ -345,7 +345,7 @@
             this.buttonProdEkle.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonProdEkle.ForeColor = System.Drawing.Color.Yellow;
             this.buttonProdEkle.Location = new System.Drawing.Point(0, 0);
-            this.buttonProdEkle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonProdEkle.Margin = new System.Windows.Forms.Padding(2);
             this.buttonProdEkle.Name = "buttonProdEkle";
             this.buttonProdEkle.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.buttonProdEkle.Size = new System.Drawing.Size(165, 41);
@@ -362,7 +362,7 @@
             this.button3.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button3.ForeColor = System.Drawing.Color.Yellow;
             this.button3.Location = new System.Drawing.Point(0, 546);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(165, 41);
             this.button3.TabIndex = 10;
@@ -377,7 +377,7 @@
             this.buttonOrder.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonOrder.ForeColor = System.Drawing.Color.Yellow;
             this.buttonOrder.Location = new System.Drawing.Point(0, 505);
-            this.buttonOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonOrder.Margin = new System.Windows.Forms.Padding(2);
             this.buttonOrder.Name = "buttonOrder";
             this.buttonOrder.Size = new System.Drawing.Size(165, 41);
             this.buttonOrder.TabIndex = 9;
@@ -393,7 +393,7 @@
             this.panel_customer.Controls.Add(this.button_cstAdd);
             this.panel_customer.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_customer.Location = new System.Drawing.Point(0, 381);
-            this.panel_customer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_customer.Margin = new System.Windows.Forms.Padding(2);
             this.panel_customer.Name = "panel_customer";
             this.panel_customer.Size = new System.Drawing.Size(165, 124);
             this.panel_customer.TabIndex = 6;
@@ -406,7 +406,7 @@
             this.button_cstDelete.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button_cstDelete.ForeColor = System.Drawing.Color.Yellow;
             this.button_cstDelete.Location = new System.Drawing.Point(0, 82);
-            this.button_cstDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_cstDelete.Margin = new System.Windows.Forms.Padding(2);
             this.button_cstDelete.Name = "button_cstDelete";
             this.button_cstDelete.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.button_cstDelete.Size = new System.Drawing.Size(165, 41);
@@ -424,7 +424,7 @@
             this.button_CstUpdate.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button_CstUpdate.ForeColor = System.Drawing.Color.Yellow;
             this.button_CstUpdate.Location = new System.Drawing.Point(0, 41);
-            this.button_CstUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_CstUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.button_CstUpdate.Name = "button_CstUpdate";
             this.button_CstUpdate.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.button_CstUpdate.Size = new System.Drawing.Size(165, 41);
@@ -442,7 +442,7 @@
             this.button_cstAdd.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button_cstAdd.ForeColor = System.Drawing.Color.Yellow;
             this.button_cstAdd.Location = new System.Drawing.Point(0, 0);
-            this.button_cstAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_cstAdd.Margin = new System.Windows.Forms.Padding(2);
             this.button_cstAdd.Name = "button_cstAdd";
             this.button_cstAdd.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.button_cstAdd.Size = new System.Drawing.Size(165, 41);
@@ -459,7 +459,7 @@
             this.buttoncstMain.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttoncstMain.ForeColor = System.Drawing.Color.Yellow;
             this.buttoncstMain.Location = new System.Drawing.Point(0, 340);
-            this.buttoncstMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttoncstMain.Margin = new System.Windows.Forms.Padding(2);
             this.buttoncstMain.Name = "buttoncstMain";
             this.buttoncstMain.Size = new System.Drawing.Size(165, 41);
             this.buttoncstMain.TabIndex = 5;
@@ -475,7 +475,7 @@
             this.panelStaff.Controls.Add(this.button2);
             this.panelStaff.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelStaff.Location = new System.Drawing.Point(0, 216);
-            this.panelStaff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelStaff.Margin = new System.Windows.Forms.Padding(2);
             this.panelStaff.Name = "panelStaff";
             this.panelStaff.Size = new System.Drawing.Size(165, 124);
             this.panelStaff.TabIndex = 4;
@@ -488,7 +488,7 @@
             this.buttonStDelete.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonStDelete.ForeColor = System.Drawing.Color.Yellow;
             this.buttonStDelete.Location = new System.Drawing.Point(0, 82);
-            this.buttonStDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonStDelete.Margin = new System.Windows.Forms.Padding(2);
             this.buttonStDelete.Name = "buttonStDelete";
             this.buttonStDelete.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.buttonStDelete.Size = new System.Drawing.Size(165, 41);
@@ -506,7 +506,7 @@
             this.buttonStUpdate.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonStUpdate.ForeColor = System.Drawing.Color.Yellow;
             this.buttonStUpdate.Location = new System.Drawing.Point(0, 41);
-            this.buttonStUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonStUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.buttonStUpdate.Name = "buttonStUpdate";
             this.buttonStUpdate.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.buttonStUpdate.Size = new System.Drawing.Size(165, 41);
@@ -524,7 +524,7 @@
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.ForeColor = System.Drawing.Color.Yellow;
             this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button2.Size = new System.Drawing.Size(165, 41);
@@ -541,7 +541,7 @@
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.Yellow;
             this.button1.Location = new System.Drawing.Point(0, 175);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(165, 41);
             this.button1.TabIndex = 3;
@@ -556,7 +556,7 @@
             this.buttonAnaMenu.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.buttonAnaMenu.ForeColor = System.Drawing.Color.Yellow;
             this.buttonAnaMenu.Location = new System.Drawing.Point(0, 134);
-            this.buttonAnaMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAnaMenu.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAnaMenu.Name = "buttonAnaMenu";
             this.buttonAnaMenu.Size = new System.Drawing.Size(165, 41);
             this.buttonAnaMenu.TabIndex = 1;
@@ -568,7 +568,7 @@
             // 
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(2);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(165, 134);
             this.panelLogo.TabIndex = 0;
@@ -577,7 +577,7 @@
             // 
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMain.Location = new System.Drawing.Point(165, 0);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(2);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(781, 547);
             this.panelMain.TabIndex = 1;
@@ -587,10 +587,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(946, 1061);
+            this.ClientSize = new System.Drawing.Size(946, 547);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelSlide);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormStaff";
             this.Text = "FormStaff";
             this.Load += new System.EventHandler(this.FormStaff_Load);
